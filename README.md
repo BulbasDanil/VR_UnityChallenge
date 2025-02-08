@@ -1,26 +1,3 @@
-# **Unity Coding Skills Challenge 1-3**
-
-## Task 1
-
-- Updated `HandController.cs` to implement a PingPong movement type using `MoveTowards`, ensuring smooth motion.
-- Enhanced `LaserHand.cs` by performing a raycast to detect objects in front of the hand.
-    - If the detected object has the "Destroyable" tag and implements the `IDestroyable` interface, it is damaged accordingly, guaranteeing interaction only with destructible entities.
-
-## Task 2
-
-- Added serialize fields to `GameManager.cs` for prefabs to allow assignment of instantiable objects in the Unity Editor.
-- Implemented prefab instantiation in `GameManager.cs`
-
-## Task 3
-
-- Created `IDestroyable` interface with `TakeDamage` method for destructible objects.
-- Implemented `TakeDamage` in `SphereController`, reducing health by 1 with a 1-second cooldown using a coroutine.
-- Made `GameController` a Singleton with a `RestartGame` method, launching a coroutine to restart the scene after 5 seconds.
-
-## Task 1-3 Video
-
-- https://we.tl/t-mt3wo6WdYJ
-
 # Bonus task
 
 
